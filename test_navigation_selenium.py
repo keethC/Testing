@@ -1,6 +1,6 @@
 # Simple test: check HTML file content for expected title and links
 
-file_path = "file:///C:/Users/user/Desktop/Test02/index.html"
+file_path = "C:\Users\user\Desktop\Test02\index.html"
 
 with open(file_path, 'r', encoding='utf-8') as f:
     content = f.read()
